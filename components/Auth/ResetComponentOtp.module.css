@@ -1,0 +1,31 @@
+.restOtp{
+
+}
+
+.wkFromInput {
+    border-color: #0097db!important;
+    background: transparent;
+    padding:0px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.wkFromInput:focus {
+    border-color: #0097db!important;
+    box-shadow: none!important;
+}
+
+@media (max-width: 575.98px) {
+    .wkFromInput {
+        padding:0px;
+        margin:0px;
+
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wkFromInput {
+        padding:0px;
+        margin:0px;
+
+    }
+}

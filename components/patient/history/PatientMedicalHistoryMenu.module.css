@@ -1,0 +1,100 @@
+.historyMenu{
+    width:65%;
+    margin:0 auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.wkLinkArea a {
+    text-decoration: none;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #CBCBCB;
+    color: #000;
+    padding: 12px 5px;
+    width:10rem;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow:none!important;
+}
+.wkLinkArea a:hover {
+    background: #f6f5f3;
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.wkActive {
+    border-color: #00695c!important;
+    background: #00695c!important;
+    color: #fff!important;
+}
+
+.wkDownloadViewArea a {
+    text-decoration:none;
+    color: #000;
+    padding-left:40px;
+}
+
+.wkIconArea {
+    position: relative;
+}
+
+.wkIcon {
+    position: absolute;
+    top:0;
+    left: -30px;
+}
+@media (min-width: 320px) and (max-width: 475.98px) {
+    .wkLinkArea{
+        margin-bottom:2rem;
+    }
+    .wkLinkArea a {
+        width:15rem;
+        margin-bottom: 15px;
+    }
+    .wkDownloadViewArea{
+        margin-right: 6rem;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 575px) {
+    .wkLinkArea{
+        margin-bottom:2rem;
+    }
+    .wkLinkArea a {
+        width:15rem;
+        margin-bottom: 15px;
+    }
+    .wkDownloadViewArea{
+        margin-right: 6rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .wkLinkArea{
+        margin-bottom:2rem;
+    }
+    .wkDownloadViewArea{
+        margin-right: 6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkLinkArea{
+        margin-bottom:2rem;
+    }
+    .wkDownloadViewArea{
+        margin-right: 12rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+}
+
+
+
+
+

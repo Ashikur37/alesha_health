@@ -1,0 +1,398 @@
+/***************************
+ =====Style Index =====
+ 1.Common tag style
+ 2.general Style
+   1.button
+   2.input
+   3.common-class
+**************************/
+/*------live-doctor-colors------*/
+/*Live-Doctor-PrimaryColor: #FE5866;*/
+
+/*------------Common Tag Style -----------*/
+/*p {*/
+/*    font-size: 1.1em;*/
+/*}*/
+h1 {
+    font-size:34px;
+}
+h2  {
+    font-size: 30px;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+/*-------Bootstrape class--------*/
+.btn-primary{
+    border-color: transparent;
+}
+/*------Material Icon Color-----*/
+.wk-material-icon{
+    color: #00695c;
+}
+/*------------Button------------*/
+.wk-general-button{
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    padding: 5px 20px;
+    min-width: 150px;
+    margin-right: 2px;
+    height:2.9rem;
+    color:#fff
+}
+.wk-general-button:hover{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 150px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+.wk-filter-active-button:hover {
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #00897b;
+    cursor: not-allowed;
+}
+.wk-general-button:focus {
+    color: #fff;
+    background-color: #00897b;
+    box-shadow: none;
+}
+.wk-general-button.btn-primary:not(:disabled):not(.disabled).active,
+.wk-general-button.btn-primary:not(:disabled):not(.disabled):active,
+.show>.wk-general-button.btn-primary.dropdown-toggle{
+    color: #fff;
+    background-color: #00897b;
+    box-shadow: none;
+}
+.wk-general-button:not(:disabled):not(.disabled):active:focus, .show>.wk-general-button.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.wk-general-small-button{
+    background: #9C78C0;
+    border-radius: 4pt;
+    padding: 2px 20px;
+    min-width: 110px;
+    height:2.9rem;
+}
+.wk-general-small-button:hover{
+    background: transparent;
+    border: 0px;
+    color: #000000;
+    border:1px solid #00897b;
+}
+.wk-general-small-button:focus {
+    color: #fff;
+    background-color: #00897b;
+    box-shadow: none;
+}
+.wk-general-small-button:not(:disabled):not(.disabled):active:focus, .show>.wk-general-button.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+
+button.wk-filter-active-button, a.wk-filter-active-button, a.wk-filter-active-button:focus, button.wk-filter-active-button:focus {
+    background: #fff;
+    color: #000;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 150px;
+    margin-right: 2px;
+}
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+/*---------------Input Style-----------*/
+.wk-select-input {
+   border-radius: 4pt;
+    border-color: #00695c;
+    height:2.9rem;
+}
+.wk-select-input:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #00695c!important;
+    box-shadow: none;
+}
+.wk-apps-btn-download a{
+    padding: 0px;
+}
+.wk-apps-btn-download img {
+    height: 50px;
+    width: auto;
+
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow:none!important;
+}
+
+/*---------------Common Class Style-------------------*/
+.wk-section-common-style {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.wb-service-counseling-link {
+    text-decoration: underline;
+    color:#000;
+}
+
+.wb-service-counseling-link:hover {
+    text-decoration: underline;
+    color: #00897b;
+}
+/*---------------Common Search Button Style----------*/
+.searchSubmitBtn{
+    height: 2.9rem;
+    background-color: #00695c;
+    border: 0;
+}
+/*-------------- Package Section----------------------*/
+.wk-package-section {
+    background: #f6f5f3;
+}
+.wk-packages-image {
+    border-radius: 50%!important;
+    width: 100px;
+    height: auto;
+}
+.wk-package-card {
+    border:0;
+    border-radius:0;
+    margin: 0;
+    float: left;
+    width: 100%;
+    height:100%;
+}
+/*-------------Blog Section---------------------------*/
+.wb-single-blog-card {
+    background: #f6f5f3;
+    padding:20px;
+}
+
+.wk-blog-image {
+    height: 200px;
+    width: auto;
+}
+
+/*---------------Responsive Grid ---------------------*/
+@media (max-width: 575.98px) {
+    .wk-apps-btn-download img {
+        height: 40px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .wk-section-common-style {
+        padding-top: 40px;
+    }
+    .wk-filter-button-in-response {
+        display: block;
+        width:100%;
+        border-bottom: 1px solid #ffffff;
+        margin-bottom: 4px;
+    }
+    .wk-filter-active-button {
+        border:1px solid #fff;
+        margin-right: 4px;
+    }
+    .wk-services-image-in-responsive{
+        border-radius: 50%!important;
+        width: 200px;
+        height: auto;
+    }
+    .wk-package-section {
+        margin-bottom: 20px;
+    }
+    .wk-announcement-text {
+        padding-top: 40px;
+    }
+    .wk-blog-side-text {
+        padding-top: 30px;
+    }
+    .wb-single-blog-card {
+        padding:20px 5px;
+    }
+    .wk-general-button{
+        margin-bottom: 4px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wk-apps-btn-download img {
+        height: 40px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .wk-general-button{
+        margin-bottom: 4px;
+    }
+    .wk-section-common-style {
+        padding-top: 40px;
+    }
+    .wk-filter-button-in-response {
+        display: block;
+        width:100%;
+        margin-bottom: 4px;
+    }
+    .wk-filter-active-button {
+        border:1px solid #fff;
+    }
+    .wk-services-image-in-responsive{
+        border-radius: 50%!important;
+        width: 200px;
+        height: auto;
+    }
+    .wk-package-section {
+        margin-bottom: 20px;
+    }
+    .wk-announcement-text {
+        padding-top: 40px;
+    }
+    .wk-blog-side-text {
+        padding-top: 30px;
+    }
+    .wb-single-blog-card {
+        padding:20px 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+}
+
+/*.carousel-control-hide .carousel-control-prev{*/
+/*    position: absolute;*/
+/*    top: 25rem;*/
+/*    bottom: 0;*/
+/*    left: 28rem;*/
+/*    display: -ms-flexbox;*/
+/*     display: flex;*/
+/*    -ms-flex-align: center;*/
+/*     align-items: center;*/
+/*    -ms-flex-pack: center;*/
+/*    justify-content: center;*/
+/*    width: 15%;*/
+/*    color: #fff;*/
+/*    opacity: .5;*/
+/*    transition: opacity .15s ease;*/
+/*}*/
+/*.carousel-control-hide .carousel-control-next{*/
+/*    position: absolute;*/
+/*    top: 25rem;*/
+/*    bottom: 0;*/
+/*    right: 28rem;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -ms-flex-align: center;*/
+/*    align-items: center;*/
+/*    -ms-flex-pack: center;*/
+/*    justify-content: center;*/
+/*    width: 15%;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    opacity: .5;*/
+/*    transition: opacity .15s ease;*/
+/*}*/
+.pointer{
+    cursor: pointer;
+}
+:disabled{opacity: .65;cursor: not-allowed;}
+
+/* danger button */
+.wk-danger-button{
+    background: #dc3545;
+    border-radius: 4pt;
+    border:1px solid #dc3545;
+    padding: 5px 20px;
+    min-width: 150px;
+    margin-right: 2px;
+    height:2.9rem;
+    color:#fff
+}
+.wk-danger-button:hover{
+    background: #da4755;
+    border-radius: 4pt;
+    border:1px solid #da4755;
+    padding: 5px 20px;
+    min-width: 150px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+.wk-danger-button:focus {
+    color: #fff;
+    background-color: #da4755;
+    box-shadow: none;
+}
+.wk-danger-button.btn-primary:not(:disabled):not(.disabled).active,
+.wk-danger-button.btn-primary:not(:disabled):not(.disabled):active,
+.show>.wk-danger-button.btn-primary.dropdown-toggle{
+    color: #fff;
+    background-color: #da4755;
+    box-shadow: none;
+}
+.wk-danger-button:not(:disabled):not(.disabled):active:focus, .show>.wk-danger-button.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+ .show>.wk-danger-button.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.wkCustomFileInput{
+    height: 38px;
+}
+.wkCustomFileInput::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+
+.wkCustomFileInput::before {
+    content: 'Attach File';
+    display: block;
+    background: linear-gradient(to top, #757575, #757575);
+    border: 1px solid #00695c;
+    border-radius: 4pt;
+    padding: 8px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+
+    /*text-shadow: 1px 1px #fff;*/
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.wkCustomFileInput:hover::before {
+    border-color: #757575;
+    background:#757575;
+}
+
+.wkCustomFileInput:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.wk-sm-btn, .wk-sm-btn:hover{
+    min-width: 80px;
+    height: 2.3rem;
+    padding: 3px 5px;
+}

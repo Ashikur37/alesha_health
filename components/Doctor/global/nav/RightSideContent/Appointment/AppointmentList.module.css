@@ -1,0 +1,24 @@
+.appointmentList {
+    margin: 0 auto;
+    width: 100%;
+}
+.serviceSelection{
+
+}
+.inServiceBtn{
+    color: #ffffff;
+    border : none;
+}
+.outOfServiceBtn{
+    background: #ffffff;
+
+}
+.appointmentBanner{
+    height: 4rem;
+    background: #00695c;
+}
+.appointmentBannerText{
+    padding: 1.2rem 0 0 3rem;
+    color:#ffffff;
+    font-weight: 300;
+}

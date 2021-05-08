@@ -1,0 +1,25 @@
+.serviceSection{
+    margin-top:3rem;
+    min-height: 10rem;
+    width:100%;
+    background-color: #EFEFEF;
+}
+.serviceSection p{
+    margin: 0;
+}
+.serviceSection:not(:last-child){
+    margin-bottom: 2rem;
+}
+.serviceHeader{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size:1rem;
+}
+.serviceDescription{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    paddign-bottom:2rem;
+    font-size:.9rem;
+    color: #757575;
+    width: 95%;
+}

@@ -1,0 +1,75 @@
+.SingleDoctor{
+    padding-top: 3rem;
+}
+
+.DoctorCard{
+    border-radius: 0;
+    margin-bottom: 2rem;
+    border: none;
+}
+.DoctorCardImgSection{
+    width: 100%;
+    background-color: #ffffff;
+}
+.DoctorCardImg{
+    border-radius: 0;
+    width: 100%;
+    height:auto;
+    background:transparent;
+}
+.DoctorCardTitle{
+    font-size: .8rem;
+    font-weight: 700;
+}
+.DoctorCardText{
+    font-size: .6rem;
+}
+.DoctorCardButton{
+    border-radius: 4pt;
+    font-size:.7rem;
+    background-color: #00695c;
+    color:white;
+    min-width: 5rem;
+}
+.DoctorCardButton:hover{
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.DoctorCardButton:focus {
+    color: #fff;
+    background-color: #00897b;
+    box-shadow: none;
+}
+@media (min-width: 0px) and (max-width: 575px) {
+    .SingleDoctor{
+        padding-top: 3rem;
+    }
+    .DoctorCardImg{
+        border-radius: 0;
+        width: 80%;
+        height:auto;
+        background:transparent;
+        margin: 0 auto;
+    }
+    .DoctorCardTitle{
+        text-align: center;
+    }
+    .DoctorCardText{
+        text-align: center;
+    }
+    .DoctorCardButton{
+        border-radius: 0;
+        font-size:.8rem;
+        color:white;
+        min-width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+@media (min-width: 1200px) {
+
+}

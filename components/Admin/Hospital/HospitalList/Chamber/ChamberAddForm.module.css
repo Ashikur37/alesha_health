@@ -1,0 +1,45 @@
+.wkAddNewCamberArea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    padding:20px;
+}
+
+.wkMapArea {
+    height: 300px;
+    width: 300px;
+    background: #f6f5f3;
+    border: 1px solid #91908e;
+}
+
+@media (max-width: 1192px) {
+    .wkMapArea {
+        height: 200px;
+        width: 200px;
+        background: #f6f5f3;
+        border: 1px solid #91908e;
+    }
+}
+
+.wkInputField {
+    border-radius: 1px;
+    border-color: #ddd;
+}
+
+.wkInputField:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ddd;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(255,255,255,.25);
+}
+
+
+.wkSubmitButton {
+    height: 2.9rem;
+}
+
+
+.wkSubmitButton:not(:disabled):not(.disabled).active:focus, .wkSubmitButton:not(:disabled):not(.disabled):active:focus, .show>.wkSubmitButton.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255,.5);
+}

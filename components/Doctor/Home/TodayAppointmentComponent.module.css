@@ -1,0 +1,63 @@
+.TodayAppointment{
+
+}
+
+.wkFromInputDoctorFilter {
+    border-color: #0097db!important;
+    background: transparent;
+    border-radius: 0!important;
+
+}
+.wkFromInputDoctorFilter:focus {
+    border-color: #0097db!important;
+    box-shadow: none!important;
+}
+
+.wkTableHead {
+    background: rgba(0, 153, 226, 0.27);
+}
+
+.wkTable td, .wkTable th {
+    padding: 1rem!important;
+    border-top: 5px solid #fff!important;
+}
+
+.wkDoctorPatientViewCard {
+    background: #f6f5f3;
+    padding: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .wkTable td, .wkTable th {
+        font-size: 12px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1800px) {
+
+}
+
+@media (min-width: 2000px) {
+
+}

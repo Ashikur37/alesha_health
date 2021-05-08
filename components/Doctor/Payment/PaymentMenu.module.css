@@ -1,0 +1,55 @@
+.wkMedicalPaynateadingArea {
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #f6f5f3;
+}
+
+.wklinkArea {
+  margin:0 auto;
+}
+
+.wklinkArea a {
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 11px;
+
+}
+.wklinkArea a:hover {
+    padding: 11px;
+}
+.wklinkArea button {
+    background: #fff;
+    border: 1px solid #CBCBCB;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 9px;
+}
+
+.wklinkArea button:hover {
+    background: #f6f5f3;
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.wkActive {
+    background: #00695c !important;
+    color: #fff!important;
+}
+
+@media (max-width: 575.98px) {
+    .wklinkArea a, .wklinkArea button {
+        display: block;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .wklinkArea a , .wklinkArea button{
+        display: block;
+        width:100%;
+        margin-bottom: 4px;
+    }
+}

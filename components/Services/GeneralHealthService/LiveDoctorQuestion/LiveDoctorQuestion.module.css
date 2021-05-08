@@ -1,0 +1,15 @@
+.liveDoctorQuestion{
+    padding-top: 1rem;
+}
+.liveDoctorQuestion:last-child {
+    margin-bottom:3rem;
+}
+.doctorCardBorder{
+    border-bottom: 1px solid #DFDFDF;
+}
+.questionText{
+    padding-top: .8rem;
+}
+.materialIcon{
+    padding-top: .9rem;
+}

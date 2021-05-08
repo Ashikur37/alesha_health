@@ -1,0 +1,188 @@
+.wkTileAppointentList {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.wkSelectInput {
+    border-radius: 4pt;
+    border-color: #00695c;
+    height:2.9rem;
+    width: 100%;
+    margin-bottom:20px;
+
+}
+.wkSelectInput:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #00695c!important;
+    box-shadow: none;
+}
+
+.wkCardArea {
+    background: #f6f5f3;
+    border: 1px solid #f6f5f3;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.wkCardAreaSuccess {
+    background: #f6f5f3;
+    border: 1px solid  #068439;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.wkCardAreaCanceled {
+    background: #f6f5f3;
+    border: 1px solid  #dc3545;
+    margin-bottom: 20px;
+    padding: 15px;
+    opacity: 0.5;
+}
+.wkCardAreaCanceled:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.wkDATime {
+    font-size: 14px;
+}
+
+.wkDoctorName {
+    font-size: 18px;
+    color: #00695c;
+    font-weight:bold;
+}
+
+.wkDoctorName:hover {
+    color: #00897b;
+}
+
+.wkDoctorDegrees {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.wkCardArea:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
+}
+
+.wkCardAreaSuccess:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
+}
+
+.wkApPending {
+    padding: 2px 10px;
+    color: #fff;
+    background: #ffc107;
+    border: 1px solid #ffc107;
+    margin: 5px;
+    margin-left: 0;
+}
+.wkApPending:hover {
+    color: #f6f5f3;
+    text-decoration:none;
+    background: #f8b907;
+}
+
+.wkApCompleted {
+    padding: 2px 10px;
+    color: #fff;
+    background: #28a745;
+    border: 1px solid #28a745;
+    margin: 5px;
+    margin-left: 0;
+}
+.wkApCompleted:hover {
+    color: #f6f5f3;
+    text-decoration:none;
+    background: #24973e;
+}
+
+.wkApCanceled {
+    padding: 2px 10px;
+    color: #fff;
+    background: #dc3545;
+    border: 1px solid #dc3545;
+    margin: 5px;
+    margin-left: 0;
+}
+.wkApCanceled:hover {
+    color: #f6f5f3;
+    text-decoration:none;
+    background: #ca313f;
+}
+
+.wkCancelApp {
+    padding: 2px 10px;
+    color: #fff;
+    background: #0097db;
+    border: 1px solid #0097db;
+    margin: 5px;
+    margin-left: 0
+}
+
+.wkCancelApp:hover {
+    text-decoration:none;
+    text-decoration:none;
+    color:#fff;
+    background: #0069D9;
+    border: 1px solid #0069D9;
+}
+
+.wkAppFee {
+  margin-bottom: 0;
+}
+
+.wkApStatusPending {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.wkApStatusSuccess {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.wkApStatusCanceled {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+
+.wkAppSrarc {
+    text-align: right;
+}
+
+.wkAppHeadingArea {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.wkSearchFormArea {
+    display: block;
+    border-radius: 4pt;
+    margin-bottom: 20px;
+}
+
+.wk-search-input {
+    border-radius: 4pt!important;
+}
+
+.wkSearchIconArea {
+    background: #fff;
+    border-radius: 4pt;
+}
+
+.wkSearchInput:focus {
+    box-shadow: none;
+}
+
+.wk-select-input {
+    border-radius: 4pt;
+}

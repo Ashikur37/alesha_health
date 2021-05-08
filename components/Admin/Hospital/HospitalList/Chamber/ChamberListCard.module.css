@@ -1,0 +1,23 @@
+.wkChamberCardArea {
+    background: #f6f5f3;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.wkChamberEdit {
+    padding-top: 2px;
+    color: #ffc107;
+}
+
+
+.wkChamberEdit:hover {
+    color: #e7ae07;
+}
+
+.wkChamberDelete {
+    color: #FF0000;
+}
+
+.wkChamberDelete:hover{
+    color: #e20000;
+}

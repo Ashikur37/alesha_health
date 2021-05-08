@@ -1,0 +1,72 @@
+.LiveDoctorAdd{
+    margin-top: 5rem;
+    background-color: #3d8974;
+    width: 100%;
+}
+.addHeader{
+    padding-top: 1.7rem;
+    color:#fff;
+}
+.liveDoctorAddbButton1{
+    max-width: 10rem;
+    background:transparent;
+    padding:1rem;
+    transition: all .7s;
+    border: 1px solid #0000;
+}
+.liveDoctorAddbButton1:hover{
+    z-index:1;
+    transform: scale(1) translateY(-0.5rem);
+}
+.liveDoctorAddbButton2{
+    max-width: 9.3rem;
+    background:transparent;
+    padding: .8rem;
+    transition: all .7s;
+}
+.liveDoctorAddbButton2:hover{
+    transform: scale(1) translateY(-0.5rem);
+}
+.liveDoctorAddbButtonImg1{
+    width: 100%;
+    border-radius: 4pt;
+}
+.liveDoctorAddbButtonImg2{
+    width: 100%;
+    border-radius: 4pt;
+}
+
+@media (min-width: 252px) and (max-width: 591.99px) {
+    .addHeader {
+        padding-top: 1.7rem;
+        color: #fff;
+        font-size: 16px;
+
+    }
+}
+@media (min-width: 592px) and (max-width: 767.99px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+    .LiveDoctorAdd{
+        height: 14rem;
+    }
+    .addHeader{
+        padding-top: 3.7rem;
+    }
+    .liveDoctorAddbButton1{
+        max-width: 11.5rem;
+    }
+    .liveDoctorAddbButton2{
+        max-width: 10.5rem;
+    }
+}

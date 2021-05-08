@@ -1,0 +1,122 @@
+.searchDoctorForm{
+    width: 94.5%;
+}
+.wkArrowSetting{
+    position:relative;
+}
+.wk-select-input {
+    margin-right:5px;
+}
+.wkArrowSetting::before {
+    content: '';
+    position:absolute;
+    top: 4px;
+    left:0;
+    border: 6px solid transparent;
+    border-left: 8px solid #dc3545;
+}
+
+.wkSettingLink {
+    color: #000;
+    text-decoration: underline;
+}
+
+.wkSettingLink:hover {
+    color: #00897b;
+    text-decoration: underline;
+}
+.wkSelection {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.wkSelection:focus {
+    border-radius: 0;
+    border-color:  #00897b;
+    box-shadow: none;
+}
+
+.wkSubmitAppointment {
+    border-color:  #00695c;
+    background: #00695c;
+    color:#fff;
+    border-radius: 0;
+}
+
+.wkSubmitAppointment:hover {
+    border-color: #00897b;
+    background: #00897b;
+    color:#fff;
+    border-radius: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/*---------------Filtering button--------------*/
+.wkSearchDN {
+    border-radius: 0;
+    background: #00695c;
+    width: 150px;
+    border-color: #00695c;
+}
+.wkSearchDN:hover{
+    border-radius: 0;
+    background: #00897b;
+    width: 150px;
+    border-color: #00897b;
+}
+
+.wkDropdowndN {
+    border-radius: 0!important;
+    background: #00695c;
+    border-color: #00695c;
+}
+
+.wkDropdowndN:hover {
+    border-radius: 0!important;
+    background: #00897b;
+    border-color: #00897b;
+}
+.wkDropdowndN.focus, .wkDropdowndN:focus {
+    box-shadow: 0 0 0 ;
+}
+
+.wkDropdowndN:not(:disabled):not(.disabled).active:focus, .wkDropdowndN:not(:disabled):not(.disabled):active:focus, .show>.wkDropdowndN.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.wkDropdowndN:not(:disabled):not(.disabled).active, .wkDropdowndN:not(:disabled):not(.disabled):active, .show>.wkDropdowndN.dropdown-toggle {
+    color: #fff;
+    background-color: #00897b;
+}
+
+.wkButtonGroupDN {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.wkButtonGroupDN:hover {
+    box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+.wkButtonGroupDN:not(:disabled):not(.disabled).active:focus, .wkButtonGroupDN:not(:disabled):not(.disabled):active:focus, .show>.wkButtonGroupDN.dropdown-toggle:focus {
+    box-shadow: none!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem rgba(0,0,0,.15);
+}
+
+.searchSubmitBtn{
+    height: 2.9rem;
+    background-color: #00695c;
+    border-color: #00695c;
+    border-radiud: 0!important;
+}
+
+.searchSubmitBtn:hover{
+    background-color: #00897b;
+    border-color: #00897b;
+    height: 2.9rem;
+    border: 0;
+
+}

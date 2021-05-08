@@ -1,0 +1,157 @@
+.nav {
+    color: #000000;
+    background-color: white;
+}
+.nav.Link {
+    background:#000;
+}
+.nav .wkMainNavButton , .nav .wkMainNavButton .action{
+    background-color: #fff;
+    border-color: #00695c;
+    color: #00695c;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+.medicallLogo{
+    width: 22rem;
+    height: 5rem;
+}
+.medicallLogoImg{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-left: -.5rem;
+    object-fit: cover;
+}
+.wkMainNavGeneralLink {
+    margin-top: 5px;
+    padding-right: 2.5rem!important;
+    text-decoration: none;
+    position: relative;
+}
+.wkMainNavGeneralLink:hover:after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    bottom: 2px;
+    margin: 0 auto;
+    left: -10%;
+    right: 15%;
+    width: 80%;
+    background: #00897b;
+    /*border-radius: 20%;*/
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.wkMainNavGeneralLink:not(:disabled):not(.disabled).active, .wkMainNavGeneralLink:not(:disabled):not(.disabled):active, .show>.wkMainNavGeneralLink.dropdown-toggle {
+    color: #00695c;
+    background-color: transparent!important;
+    /*border-color: #00695c!important;*/
+    text-decoration: none;
+    position: relative;
+
+    
+}
+.wkMainNavGeneralLink.active, .wkMainNavGeneralLink:active {
+    background: #00897b!important;
+    color: #fff!important;
+}
+.wkMainNavButton:hover {
+    background-color: #00897b;
+    border-color: #00897b;
+    color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.wkMainNavButton:focus {
+    background-color: #00897b;
+    border-color: #00897b;
+    color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.wkMainNavButtonLogin {
+    background-color: #00695c;
+    border-color: #00695c;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 25px!important;
+    width: 120px;
+}
+
+.wkMainNavButtonLogin:hover {
+    background-color: #fff;
+    border-color: #00897b;
+    color: #00897b;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.wkLanguageSwitchButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border-color: #00695c;
+    padding: 5px;
+    margin-right: 5px;
+    background: transparent;
+}
+
+.wkMainNavlanguageText {
+    color: #00695c;
+}
+
+.wkLanguageArea {
+    position: relative;
+}
+.wkMainNavlanguageText {
+    position: absolute;
+    top: -8px;
+    left: 30px
+}
+
+.wkDropdownMenu {
+    position: relative;
+}
+.wkDeopArea {
+    position: absolute;
+    top:-1px;
+    left: -1px;
+    background:#fff;
+    border:1px solid #ddd;
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+    z-index: 9999;
+}
+.wkDropDownItem {
+
+    display: block;
+    width: 100%;
+    padding: 1rem 1.85rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    /*border-left:1px solid #ddd;*/
+    /*border-right:1px solid #ddd;*/
+}
+.wkDropDownItem:hover {
+    background: rgba(0, 137, 23, 0.25);
+    color: #212529;
+    text-decoration: none
+}
+
+.wkDropDownItem:active {
+    background: rgba(0, 137, 23, 0.25);
+    color: #212529;
+    text-decoration: none
+}

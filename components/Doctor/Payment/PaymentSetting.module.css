@@ -1,0 +1,18 @@
+
+.wkHeading {
+    font-size: 18px;
+    color:#000;
+    padding-bottom:20px;
+}
+
+.wkInput {
+    border-radius: 0;
+}
+
+.wkSbmit {
+    height:2.9rem;
+    padding: 5px 20px;
+    color:#ffffff;
+    margin-bottom:30px;
+}
+

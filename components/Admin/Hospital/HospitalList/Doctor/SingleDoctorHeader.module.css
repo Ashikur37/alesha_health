@@ -1,0 +1,90 @@
+.SingleDoctorHeader{
+    margin-top: 4rem;
+}
+
+.HeaderImg{
+    width: 100%;
+    background-size: cover;
+    height:24.75rem;
+
+    margin-bottom: 10px;
+}
+.HeaderImg2{
+    width: 100%;
+    height:auto;
+    object-fit: contain;
+    margin-left:-0.5rem;
+    margin-bottom: 2.5rem;
+}
+.materialIconFont{
+    font-size: .8rem;
+}
+.singleDoctorDefaultFontSize{
+    font-size: 1rem;
+    padding-left:1rem;
+}
+
+.wkHosMap {
+    min-height: 12rem;
+    width: 100%;
+    background: #f6f5f3;
+}
+
+.wkHosLogo {
+    height: 80px;
+    width: 50%;
+ }
+
+.wkParText {
+    padding: 0;
+    margin:0;
+}
+
+@media (min-width: 327px) and (max-width: 591.99px) {
+    .HeaderImg2{
+        margin-left:-0.5rem;
+    }
+    .HeaderImg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 592px) and (max-width: 767.99px) {
+    .HeaderImg2{
+        margin-left:-0.5rem;
+    }
+    .HeaderImg {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkHosMap {
+        min-height: 8rem;
+        width: 100%;
+        background: #f6f5f3;
+    }
+    .HeaderImg2{
+        /*margin-left:-1.3rem;*/
+        width: 100%;
+        background-size: cover;
+        object-fit: fill;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wkHosMap {
+        min-height: 8rem;
+        width: 100%;
+        background: #f6f5f3;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

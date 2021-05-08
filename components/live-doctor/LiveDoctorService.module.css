@@ -1,0 +1,176 @@
+.liveDoctorServiceHeader{
+    padding:3rem 0 2rem 0 ;
+    text-align: center;
+}
+.liveDoctorServiceHeaderTag{
+    margin-top:5rem;
+}
+.liveDoctorServiceHeaderSpan{
+    color: #A4A4A4;
+    font-size:.8rem;
+}
+.liveDoctorlLeftImgButton{
+    width: 100%;
+    height: 25rem;
+}
+.liveDoctorServiceImg{
+    background-image: linear-gradient(rgba(0, 105, 92, .7)),url("../../static/img/home/doctors/Live Doctor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.wkDivCenter {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    color:#ffffff;
+    font-weight: 100;
+}
+.wkDivCenterButton{
+    margin-top:1.5rem ;
+    width: 18rem;
+    height: 5rem;
+    background-color:transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.wkDivCenterButton:hover {
+    background: #f6f5f3;
+    color: #00695c;
+    transition: all 0.3s;
+}
+.serviceMaterialIcon{
+    font-size: .95rem;
+}
+.serviceText{
+    font-size: 1.2rem;
+}
+.createSection{
+    margin-bottom: 1.5rem;
+}
+.regSection{
+    margin-bottom: 1.5rem;
+}
+.iconBackground{
+    position: relative;
+    background: #00695c;
+    height:3rem;
+    width: 3rem;
+    border-radius: 8px;
+}
+.iconBackground::before{
+    content: ' ';
+    position: absolute;
+    bottom: -10px;
+    left:.9rem;
+    border-top: 10px solid #00695c;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.iconBackground2{
+    position: relative;
+    background: #00695c;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 8px;
+}
+.iconBackground2::before{
+    content: ' ';
+    position: absolute;
+    bottom: -8px;
+    border-top: 15px solid #00695c;
+    border-right: 20px solid transparent;
+    border-left: 0px solid transparent;
+}
+.liveDoctorServiceHeaderTitle{
+    margin-top:1rem ;
+}
+.wkiconPosition {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.wkMaterialFontSize{
+    font-size: 40px!important;
+    color: #fff;
+}
+
+
+/*---------------Responsive Grid ---------------------*/
+@media (max-width: 575.98px) {
+    .iconBackground{
+        margin:0 auto;
+    }
+    .iconBackground2{
+        margin:0 auto;
+    }
+    .liveDoctorServiceHeaderTitle{
+        margin-top:1rem;
+        text-align: center;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+        .iconBackground{
+            margin:0 auto;
+        }
+        .iconBackground2{
+        margin:0 auto;
+        }
+        .liveDoctorServiceHeaderTitle{
+        margin-top:1rem;
+        text-align: center;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkDivCenterButton{
+        width: 14rem;
+        height: 4rem;
+    }
+    .serviceHeadingLeft{
+        font-size: 1.5rem;
+    }
+    .iconBackground{
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+    .iconBackground::before{
+        content: ' ';
+        position: absolute;
+        bottom: -8px;
+        left:.5rem;
+        border-top: 10px solid #00695c;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+    }
+    .iconBackground2{
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+    .wkMaterialFontSize{
+        font-size: 25px!important;
+        color: #fff;
+    }
+    .serviceRightHeader{
+        font-size:.9rem;
+    }
+    .liveDoctorServiceHeaderSpan{
+        font-size:.7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .liveDoctorlLeftImgButton{
+        height: 30rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,24 @@
+.doctorList {
+    margin: 0 auto;
+    width: 100%;
+}
+.serviceSelection{
+
+}
+.serviceBtnActive{
+    color: #ffffff;
+    border : none;
+}
+.serviceBtnInActive{
+    background: #ffffff;
+    color: #000;
+}
+.doctorBanner{
+    height: 4rem;
+    background: #00695c;
+}
+.doctorBannerText{
+    padding: 1.2rem 0 0 3rem;
+    color:#ffffff;
+    font-weight: 300;
+}

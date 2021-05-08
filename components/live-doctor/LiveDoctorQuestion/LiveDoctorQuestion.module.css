@@ -1,0 +1,21 @@
+.liveDoctorQuestion{
+    padding-top: 1rem;
+}
+.questionText{
+    padding-top: .8rem;
+}
+.materialIcon{
+    padding-top: .9rem;
+}
+.liveDoctorQuestion:last-child {
+    margin-bottom:3rem;
+}
+.doctorCardBorder{
+    border-bottom: 1px solid #DFDFDF;
+}
+
+@media (min-width:220px) and (max-width: 420px) {
+    .questionText {
+        font-size: 12px;
+    }
+}

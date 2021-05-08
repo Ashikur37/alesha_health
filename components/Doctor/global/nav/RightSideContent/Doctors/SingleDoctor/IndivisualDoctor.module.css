@@ -1,0 +1,79 @@
+.indivisualDoctor{
+    margin-top: 1rem;
+    min-height: 8rem;
+    background: #EFEFEF;
+}
+.indivisualDoctor:not(:last-child){
+    margin-bottom: 1rem;
+}
+.doctorContent{
+    padding: 2rem 0 0 2rem;
+}
+.indivisualDoctor p{
+    margin: 0;
+}
+.indivisualDoctor a{
+    font-size: .9rem;
+    color: #00695c;
+    border-bottom: 1px solid #00695c;
+}
+.indivisualDoctor a:hover{
+    border: 0;
+}
+.doctorText{
+    font-size: .9rem;
+}
+.doctorRight{
+    margin-top: 3rem;
+}
+.doctorResetBtn{
+    font-size: .89rem;
+    width:8rem;
+    background: #00897b ;
+}
+.doctorDisableBtn{
+    font-size: .89rem;
+    width:8rem;
+    background: #FE5866;
+}
+.doctorEnableBtn{
+    font-size: .89rem;
+    width:8rem;
+    background: #00695c;
+}
+.deleteBtn{
+    background: #FC2D13;
+    width:8rem;
+    font-size: .89rem;
+}
+@media (min-width: 320px){
+    .doctorResetBtn{
+        margin-bottom: 1rem;
+    }
+    .doctorEnableBtn{
+        margin-bottom: 1rem;
+    }
+    .doctorDisableBtn{
+        margin-bottom: 1rem;
+    }
+    .deleteBtn{
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .doctorEnableBtn{
+        margin: 1rem 7rem 1rem 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .doctorEnableBtn{
+        margin: 1rem 7rem 1rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .doctorRight{
+        margin-top: 2.5rem;
+    }
+}

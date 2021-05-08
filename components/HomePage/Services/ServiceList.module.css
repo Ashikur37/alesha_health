@@ -1,0 +1,65 @@
+.wkServicesSection {
+    padding-top: 50px;
+    padding-bottom: 95px;
+}
+
+
+.wkServicesTextArea {
+    min-height: 350px;
+}
+
+.wkServiceLink {
+    position: absolute;
+    margin-top:20px;
+    bottom: 0px;
+    left: 15px;
+}
+.wkDetailsLink {
+    text-decoration: none;
+    color: #00695c;
+}
+.wkDetailsLink:hover {
+    text-decoration: none;
+    color: #00897b;
+}
+.wkServiceLink{
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    padding: 10px 30px;
+    text-align: center;
+    min-width: 150px;
+    margin-right: 2px;
+    /*height:2.9rem;*/
+    color:#fff
+}
+.wkServiceLink:hover{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 10px 30px;
+    /*min-width: 150px;*/
+    text-decoration:none;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+
+.wkServicesImage {
+    border-radius: 0;
+    height: 350px;
+    width: auto;
+}
+
+@media (max-width: 750px) {
+    .wkServicesTextArea {
+        height: auto;
+    }
+    .wkServicesImage {
+        margin-bottom: 20px;
+    }
+    .wkServiceLink {
+        position: relative;
+        margin-top:20px;
+    }
+}

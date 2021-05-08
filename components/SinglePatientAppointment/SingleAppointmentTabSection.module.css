@@ -1,0 +1,85 @@
+.singleAppointmentTabSection{
+    margin: 0 auto;
+    width: 85%;
+}
+.TimeBtn{
+    min-height: 2rem;
+}
+.prescriptionBtn{
+
+}
+.paymentBtn{
+
+}
+
+.wkPatientTabbuttonActive {
+    display: block;
+    width: 100%;
+    border: 1px solid #00695c;
+    background-color: #00695c;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wkPatientTabbuttonActive:hover {
+    background:#00897b;
+    box-shadow: 0rem 0.25rem 0.50rem rgba(0, 0, 0, 0.15);
+}
+
+.wkPatientTabbuttonActive:focus {
+    background: #00897b;
+    border: 1px solid #00897b!important;
+    box-shadow: 0rem 0.25rem 0.50rem rgba(0, 0, 0, 0.15);
+}
+
+.wkPatientTabbutton {
+    display: block;
+    width: 100%;
+    border: 1px solid #00695c;
+    background-color: #fff;
+    color: #000;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.wkPatientTabbutton:hover {
+    background: #00897b;
+    color: #fff;
+    box-shadow: 0rem 0.25rem 0.50rem rgba(0, 0, 0, 0.15);
+
+}
+.wkPatientTabbutton:focus {
+    background: #00897b;
+    color: #fff;
+    border: 1px solid #00897b!important;
+    box-shadow: 0rem 0.25rem 0.50rem rgba(0, 0, 0, 0.15);
+
+}
+.wkAlaringTimeText {
+    background: #FE5866;
+    color: #fff;
+    padding: 5px;
+    margin-bottom:0;
+    margin-top:20px;
+    margin-bottom: 5px;
+}
+@media (min-width: 220px) and (max-width: 591.98px) {
+    .singleAppointmentTabSection{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    .wkPatientTabbuttonActive {
+        border-radius: 4pt;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .wkPatientTabbutton {
+        border-radius: 4pt;
+        margin-bottom: 10px
+    }
+}

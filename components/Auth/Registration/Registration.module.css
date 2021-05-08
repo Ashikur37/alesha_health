@@ -1,0 +1,73 @@
+.ConfirmRegistration{
+    padding-top: 3.5rem;
+}
+.confirmRegistrationHeaderSpan{
+    color: #A4A4A4;
+    font-size:.9rem;
+}
+.ConfirmRegistrationRowWidth{
+    width:50%;
+    margin: 0 auto;
+    padding-top: 1rem
+}
+.confirmRegistrationImagePanel{
+    width: 8rem;
+    height: 8rem;
+    color:black;
+}
+.confirmRegistrationImageText{
+
+}
+.confirmRegistrationImagePanel a{
+   text-decoration: none;
+    color: black;
+}
+.confirmRegistrationImagePanelImg{
+    width: 70%;
+    height:auto;
+    margin-left: 1rem;
+}
+.confirmRegistrationText{
+    font-size:1.1rem;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .confirmRegistrationImagePanel{
+        width: 6rem;
+        height: 6rem;
+    }
+    .confirmRegistrationText{
+        font-size:.9rem;
+    }
+    .ConfirmRegistrationRowWidth{
+        width:20%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .confirmRegistrationImagePanel{
+        width: 6rem;
+        height: 6rem;
+    }
+    .confirmRegistrationText{
+        font-size:.9rem;
+    }
+    .ConfirmRegistrationRowWidth{
+        width:80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ConfirmRegistrationRowWidth{
+        width:80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .ConfirmRegistrationRowWidth{
+        width:60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ConfirmRegistrationRowWidth{
+        width:60%;
+    }
+}

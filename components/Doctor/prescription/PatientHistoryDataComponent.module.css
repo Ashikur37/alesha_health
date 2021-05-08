@@ -1,0 +1,35 @@
+.wkHistoryData {
+    padding: 10px;
+    border-top: 1px solid #f6f5f3;
+    border-bottom: 1px solid #f6f5f3;
+    margin-top: 10px;
+
+}
+.wkHistoryPrescriptionLink {
+    text-decoration: none;
+    color: #000;
+}
+
+.wkHistoryPrescriptionLink:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 575.98px) {
+    .wkHistoryData {
+       font-size: 12px;
+
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wkHistoryData {
+        font-size: 12px;
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}

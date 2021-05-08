@@ -1,0 +1,10 @@
+.wkDoctorSercicesPost{
+    background: #f6f5f3;
+    padding: 20px;
+}
+
+.wk-filter-active-button:hover {
+    background: #0097db;
+    border-radius: 0;
+    border:1px solid #0097db;
+}

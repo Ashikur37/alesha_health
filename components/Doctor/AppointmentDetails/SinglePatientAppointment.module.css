@@ -1,0 +1,40 @@
+.singlePatientAppointment{
+    margin: 0 auto;
+    width: 82%;
+    padding: 10px;
+    background: #fcfcfc;
+}
+.singlePatientAppointment p{
+    margin: 0;
+}
+.singleAppointmentText{
+    font-size: .9rem;
+    padding: 0rem  .2rem;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+}
+.singleAppointmentShiftText{
+    color: #00695c;
+}
+.singleAppointmentPaymentStatusText{
+    background: #00695c;
+    margin-left:1rem;
+    font-size: .7rem;
+    color:#ffffff;
+}
+.singleAppointmentButtonSection{
+    margin-top: 4rem;
+}
+.singleAppointmentButton{
+    width: 17rem;
+    height:3.50rem;
+    color: #ffffff;
+
+}
+.wkDoctorName {
+  font-weight: bold;
+    margin-bottom: 0px;
+}
+.wkboldText {
+    font-weight: bold;
+}

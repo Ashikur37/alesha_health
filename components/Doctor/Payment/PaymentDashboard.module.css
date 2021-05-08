@@ -1,0 +1,70 @@
+.wkAmountArea {
+    border: 1px solid #DED3D7;
+    background: #fffefc;
+    text-align:center;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.wkHeadingTop {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.wkHeadingTop2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.wkAmountText {
+    padding-bottom: 0px;
+    margin-bottom:5px
+}
+.wkAmountNumber {
+    color: #000;
+    margin-bottom: 0;
+}
+
+.wkCardName {
+    border-radius: 0;
+    border-color: #f6f5f3;
+    background: #f6f5f3;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wkPay {
+   color: #28a745;
+}
+
+.wkDue {
+    color: #dc3545;
+}
+
+.wkTextHistory {
+    margin-bottom: 0;
+}
+
+.wkHeading {
+    font-size: 18px;
+    color:#000;
+    padding-bottom:20px;
+}
+
+.wkInput {
+    border-radius: 0;
+}
+
+.wkSbmit {
+    border-radius: 0;
+    color: #f6f5f3;
+    border: 1px solid #9C78C0;
+    background: #9C78C0;
+}
+
+.wkSbmit:hover {
+    border-radius: 0;
+    color: #f6f5f3;
+    border: 1px solid #7b5d99;
+    background: #7b5d99;
+}

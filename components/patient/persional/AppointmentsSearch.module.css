@@ -1,0 +1,32 @@
+.wkTileAppointentList {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.wkAppSrarc {
+  text-align: right;
+}
+
+.wkAppHeadingArea {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.wkSearchFormArea {
+  display: block;
+  border-radius: 0;
+}
+
+.wk-search-input {
+  border-radius: 0!important;
+}
+
+.wkSearchIconArea {
+  background: #fff;
+  border-radius: 0;
+}
+
+.wkSearchInput:focus {
+   box-shadow: none;
+}

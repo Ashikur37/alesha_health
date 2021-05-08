@@ -1,0 +1,95 @@
+
+.wkSelectionButtonArea {
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:.9rem;
+    width: 100%;
+}
+
+.wkSelcetionButton {
+     background: #fff;
+     color: #000;
+     border-radius:0;
+     border: 1px solid #00695c;
+     display: inline;
+ }
+
+.wkSelcetionButton:hover {
+    text-decoration: none;
+    background: #00695c;
+    color: #fff;
+    border: 1px solid #00695c;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.wkSelcetionButtonActive{
+     border-radius: 0;
+     background: #00695c;
+     color: #fff;
+     border: 1px solid #00695c!important;
+     border-radius: 0;
+     background: #00695c;
+     color: #fff;
+     border: none;
+     display: inline;
+ }
+.wkSelcetionButtonActive:hover {
+    text-decoration: none;
+    background: #00897b;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.wkSelectionButtonArea a {
+    padding: 11px 80px;
+
+}
+
+.wkSelectionButtonArea button {
+    padding: 10px 80px;
+
+}
+
+/*---------------Responsive Grid ---------------------*/
+@media (max-width: 575.98px) {
+    .wkSelectionButtonArea a {
+        padding: 11px 25px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wkSelectionButtonArea a {
+        padding: 11px 40px;
+
+    }
+
+    .wkSelectionButtonArea button {
+        padding: 10px 40px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkSelectionButtonArea a {
+        padding: 11px 40px;
+
+    }
+
+    .wkSelectionButtonArea button {
+        padding: 10px 40px;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wkSelectionButtonArea a {
+        padding: 11px 40px;
+
+    }
+
+    .wkSelectionButtonArea button {
+        padding: 10px 40px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

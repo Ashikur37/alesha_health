@@ -1,0 +1,48 @@
+.doctorItem{
+   background-color: #FCFCFC;
+   margin-bottom: .6rem;
+   box-shadow: 0rem 0.25rem 0.50rem rgba(0, 0,0, 0.15);
+   padding: 15px;
+
+}
+@media (min-width:992px) {
+   .doctorItem {
+      margin-left: 30px;
+   }
+}
+.doctorItem a{
+   text-decoration: none;
+   color: #ffffff;
+}
+.wkDocHeadingName {
+   color: #00695c;
+   font-weight:bold;
+}
+.doctorAppointmentBtn{
+
+}
+.doctorAppointmentBtn{
+   background: #00695c;
+   border-radius: 4pt;
+   border:1px solid #00695c;
+   padding: 12px 25px!important;
+   min-width: 150px;
+   margin-right: 2px;
+   height:2.9rem;
+   color:#fff;
+}
+.doctorAppointmentBtn:hover{
+   background: #00897b;
+   border-radius: 4pt;
+   border:1px solid #00897b;
+   padding: 5px 20px;
+   min-width: 150px;
+   color:#fff;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+.ProfileImage{height:125px;width:125px;}

@@ -1,0 +1,74 @@
+.GeneralHealthHealthSection{
+    margin:0 auto;
+}
+.liveDoctorServiceHeaderSpan{
+    color: #A4A4A4;
+    font-size:.9rem;
+}
+.GeneralImageSection{
+    height:25rem;
+ }
+.NurseSectionImage{
+    margin-top: 3rem;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 0;
+}
+.liveDoctorServicePanel{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+.wkLiveDoctorText {
+    position: relative;
+    font-size: .85rem;
+    padding-top: .5rem;
+    color: #A4A4A4;
+}
+.wkliveDoctorIcon {
+    position: absolute;
+    top:1px;
+    left:-35px;
+}
+
+.cicircle-style{
+    background: #FE5866;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.MentalHealthSectionDoctors {
+    width: 8rem;
+    border-radius: 0;
+    padding:10px;
+    background-color: #FE5866;
+    border-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size:14px;
+}
+.MentalHealthSectionDoctors:hover{
+    background-color: #b22c38;
+    border-color: #b22c38;
+    box-shadow: 0 .75rem 1rem rgba(0,0,0,.15)!important;
+}
+.MentalHealthSectionDoctors a {
+    color: #fff;
+    text-decoration:none;
+}
+
+.MentalHealthSectionDoctors:not(:disabled):not(.disabled).active, .MentalHealthSectionDoctors:not(:disabled):not(.disabled):active, .show>.MentalHealthSectionDoctors.dropdown-toggle {
+    color: #fff;
+    background-color: #b22c38;
+    border-color: #b22c38;
+}
+.MentalHealthSectionDoctors:not(:disabled):not(.disabled).active:focus, .MentalHealthSectionDoctors:not(:disabled):not(.disabled):active:focus, .show>.MentalHealthSectionDoctors.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.wkMulHealDocDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+}

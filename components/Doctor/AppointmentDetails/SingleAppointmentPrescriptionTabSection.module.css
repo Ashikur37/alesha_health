@@ -1,0 +1,137 @@
+/*.singleAppointmentPrescriptionTabSection{*/
+/*    margin: 0 auto;*/
+/*    width: 85%;*/
+
+/*}*/
+.TimeBtn{
+    min-height: 2rem;
+}
+.prescriptionBtn{
+
+}
+.paymentBtn{
+
+}
+.Prescription{
+    margin: 0 auto;
+    width: 82%;;
+    background-color: #FCFCFC;
+}
+.Prescription:not(:last-child){
+    margin-bottom:1rem;
+}
+.prescriptionNumber{
+    margin-top: 3rem !important;
+    margin-left: 1rem;
+}
+.prescriptionTime{
+    font-size: .9rem;
+}
+.prescriptionDoctorName{
+    text-decoration: none;
+    margin:0;
+    font-size: .9rem;
+    color: #00695c;
+    border-bottom: 1px solid #00897b;
+}
+.prescriptionDoctorName:hover{
+    text-decoration: none;
+    border:0;
+}
+.prescriptionTextDefault{
+    text-decoration: none;
+    margin:0;
+    font-size: 1rem;
+}
+.prescriptionOption{
+    margin-top:3rem;
+    margin-bottom: 2rem;
+
+}
+.prescriptionOption a{
+    text-decoration: none;
+    color: #000;
+}
+.wkIconArea{
+    position: relative;
+}
+.wkIcon{
+    position: absolute;
+    top:0;
+    left: -30px;
+}
+.materialFontSize{
+    color: #00695c
+}
+.prescriptionDownload{
+    font-size: .96rem;
+    margin-left:.3rem;
+    border-bottom: 1px solid #000000;
+}
+
+.prescriptionPreview{
+    font-size: .96rem;
+    margin-left:.3rem;
+    border-bottom: 1px solid #000000;
+}
+
+@media (min-width: 220px) and (max-width: 591.98px) {
+    .Prescription{
+        margin: 0 auto;
+        width: 100%;;
+        background-color: #FCFCFC;
+    }
+    .prescriptionOption {
+        padding: 30px;
+    }
+    .prescriptionTextDefault {
+        padding-left: 30px;
+    }
+    .prescriptionNumber {
+        text-align: center;
+        margin: 10px!important;
+    }
+    .prescriptionOption {
+        margin: 10px!important;
+    }
+
+}
+
+@media (min-width: 592px) and (max-width: 767.98px) {
+    .prescriptionNumber{
+        text-align: center;
+        margin: 10px!important;
+    }
+    .prescriptionOption{
+        width: 60%;
+    }
+    .prescriptionOption{
+        margin-top:1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .prescriptionOption{
+        width: 80%;
+    }
+    .prescriptionTextDefault {
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .prescriptionOption{
+        width: 60%;
+    }
+    .prescriptionTextDefault {
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .prescriptionOption{
+        width: 50%;
+    }
+    .prescriptionTextDefault {
+        margin-top: 45px;
+    }
+}

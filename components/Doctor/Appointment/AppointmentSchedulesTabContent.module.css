@@ -1,0 +1,372 @@
+.wkTab {
+    background: #00897b;
+    border-radius: 0;
+    color: #fff;
+    padding-top:16px;
+    padding-bottom: 4px;
+
+}
+.wkTab:first-child {
+    border-radius: 0;
+}
+.wkDeactivate {
+    background: #fff;
+    color: #FE5866;
+    padding: 5px;
+    margin-right: 50px;
+}
+.wkAccordianCard {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 0px;
+    margin-bottom: 20px;
+}
+/*--------Global css---------*/
+.wkCTextArea {
+    position: relative;
+}
+.wkCIcon {
+    position: absolute;
+    right:-25%;
+    top:0;
+}
+
+.wkCIconChamber {
+    position: absolute;
+    right:-45%;
+    top:0;
+}
+
+.wkCIconHomeCare {
+    position: absolute;
+    right:-40%;
+    top:0;
+}
+
+/*--------/Global css---------*/
+.wkActiveInActive {
+    background: transparent;
+    padding: 0px;
+    border: 0;
+}
+
+.wkActiveInActive:focus {
+    outline: transparent;
+}
+
+.wkCTextAreaAlt {
+    position: relative;
+
+
+}
+
+.wkCTextAlt {
+    position: absolute;
+    left: -170px;
+}
+.wkCIconAltActive {
+    position: absolute;
+    left: -200px;
+    color: #fff;
+    cursor:pointer;
+}
+
+.wkCIconAlt {
+    position: absolute;
+    left: -200px;
+    color: #dc3545;
+    cursor:pointer;
+}
+
+.WkAccordionBodyDataArea {
+    background: #f6f5f3;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.wkAccordionCardData {
+    border: 1px solid #E7E7E7;
+    padding: 5px;
+    margin-top:10px;
+}
+
+.wkButtonPublish {
+    border-radius: 4pt;
+    padding: 0 10px;
+    margin: 0 10px;
+    background: #00897b;
+    min-width: 100px;
+    border: none;
+}
+.wkButtonPublish:hover {
+    color: #fff;
+    background-color: #00695c;
+    border-color: #00695c;
+}
+.wkButtonPublish.focus, .wkButtonPublish:focus {
+    box-shadow: none;
+}
+
+.wkButtonPublish:not(:disabled):not(.disabled).active:focus, .wkButtonPublish:not(:disabled):not(.disabled):active:focus, .show>.wkButtonPublish.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.wkButtonPublish:not(:disabled):not(.disabled).active, .wkButtonPublish:not(:disabled):not(.disabled):active, .show>.wkButtonPublish.dropdown-toggle {
+    color: #fff;
+    background-color:  #00897b;
+    border-color:  #00897b;
+}
+
+.wkButtonUnpublish {
+    border-radius: 0;
+    padding: 0 10px;
+    margin: 0 10px;
+    background: #FE5866;
+    min-width: 100px;
+    border: none;
+}
+
+.wkButtonUnpublish:hover {
+    color: #fff;
+    background-color: #bd414d;
+    border-color: #FE5866;
+}
+.wkButtonUnpublish.focus, .wkButtonUnpublish:focus {
+    box-shadow: none;
+}
+
+.wkButtonUnpublish:not(:disabled):not(.disabled).active:focus, .wkButtonUnpublish:not(:disabled):not(.disabled):active:focus, .show>.wkButtonUnpublish.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.wkButtonUnpublish:not(:disabled):not(.disabled).active, .wkButtonUnpublish:not(:disabled):not(.disabled):active, .show>.wkButtonUnpublish.dropdown-toggle {
+    color: #fff;
+    background-color:  #FE5866;
+    border-color:  #FE5866;
+}
+.wkSelection {
+    border-radius: 4pt;
+    border-color: #00695c;
+}
+
+.wkSelection:focus {
+    border-radius: 4pt;
+    border-color: #00695c;
+    box-shadow: none;
+}
+
+.wkSubmitAppointment {
+    border-color:  #00695c;
+    background: #00695c;
+    color:#fff;
+    border-radius: 4pt;
+}
+
+.wkSubmitAppointment:hover {
+    border-color:  #00897b;
+    background: #00695c;
+    color:#fff;
+    border-radius: 4pt;
+}
+.wkSubmitAppointment:focus {
+    color: #fff;
+    background-color: #00897b!important;
+    border-color: #00695c!important;
+    outline: 0;
+    box-shadow: none;
+}
+@media (min-width: 250px) and (max-width: 319.98px) {
+    .wkCText{
+        font-size: 10px;
+    }
+
+    .wkCTextAlt {
+        font-size: 10px;
+        left: -40px;
+    }
+
+    .wkCIconAltActive {
+        position: absolute;
+        left: -70px;
+        color: #00695c;
+        cursor:pointer;
+    }
+
+    .wkCIconAlt {
+        position: absolute;
+        left: -70px;
+        color: #dc3545;
+        cursor:pointer;
+    }
+    .WkAccordionBodyDataArea {
+        font-size: 8px;
+    }
+    .wkButtonPublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin: 10px;
+        font-size: 8px;
+        background: #00897b;
+        min-width: 40px;
+        border: 4pt;
+    }
+    .wkButtonUnpublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin:  10px;
+        font-size: 8px;
+        background: #FE5866;
+        min-width: 40px;
+        border: 4pt;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 419.98px) {
+    .wkCText{
+        font-size: 12px;
+    }
+
+    .wkCTextAlt {
+        font-size: 12px;
+        left: -50px;
+    }
+
+    .wkCIconAltActive {
+        position: absolute;
+        left: -80px;
+        color: #00695c;
+        cursor:pointer;
+    }
+
+    .wkCIconAlt {
+        position: absolute;
+        left: -80px;
+        color: #dc3545;
+        cursor:pointer;
+    }
+    .WkAccordionBodyDataArea {
+        font-size: 10px;
+    }
+    .wkButtonPublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin: 10px;
+        font-size: 8px;
+        background: #00897b;
+        min-width: 40px;
+        border: 4pt;
+    }
+    .wkButtonUnpublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin:  10px;
+        font-size: 8px;
+        background: #FE5866;
+        min-width: 40px;
+        border: 4pt;
+    }
+    .wkButtonPublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin: 10px;
+        margin-left: 150px;
+        font-size: 8px;
+        background: #00897b;
+        min-width: 40px;
+        border: 4pt;
+        display: inline;
+
+    }
+    .wkButtonUnpublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin:  10px;
+        margin-left: 150px;
+        font-size: 8px;
+        background: #FE5866;
+        min-width: 40px;
+        border: 4pt;
+        display: inline;
+    }
+    .wkAccordionCardData {
+        border:0px;
+        border-top: 1px solid #E7E7E7;
+        padding: 0px;
+        margin-top: 10px;
+    }
+}
+@media(min-width: 420px)  and (max-width: 575.98px){
+    .wkCText{
+        font-size: 14px;
+    }
+
+    .wkCTextAlt {
+      font-size: 14px;
+        left: -80px;
+    }
+
+    .wkCIconAltActive {
+        position: absolute;
+        left: -110px;
+        color: #219352;
+        cursor:pointer;
+    }
+
+    .wkCIconAlt {
+        position: absolute;
+        left: -110px;
+        color: #dc3545;
+        cursor:pointer;
+    }
+
+    .WkAccordionBodyDataArea {
+        font-size: 10px;
+    }
+    .wkButtonPublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin: 10px;
+        font-size: 8px;
+        background: #00897b;
+        min-width: 40px;
+        border: 4pt;
+    }
+    .wkButtonUnpublish {
+        border-radius: 0;
+        padding: 0 5px;
+        margin:  10px;
+        font-size: 8px;
+        background: #FE5866;
+        min-width: 40px;
+        border: 4pt;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+
+
+    .WkButtonResponsive {
+        display: block;
+        width:100%;
+        border-bottom: 1px solid #00695c;
+        margin-bottom: 4px;
+    }
+
+    .wkCTextAlt {
+        position: absolute;
+        left: -130px;
+    }
+    .wkCIconAltActive {
+        position: absolute;
+        left: -160px;
+        color: #00897b;
+        cursor:pointer;
+    }
+
+    .wkCIconAlt {
+        position: absolute;
+        left: -160px;
+        color: #dc3545;
+        cursor:pointer;
+    }
+}

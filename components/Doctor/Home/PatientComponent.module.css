@@ -1,0 +1,83 @@
+.wkDoctorPatientViewCard{
+    background: #f6f5f3;
+    padding:10px;
+    margin: 10px 0px;
+
+}
+
+.wkDivAuto {
+    margin: auto;
+}
+
+.wkParagraphSpace {
+    margin-bottom: 5px!important;
+}
+
+.wkResponsiveDivStyle {
+    padding-right: 20px;
+}
+
+.wkResponsiveSerialShow {
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding-left:5px;
+}
+
+@media (max-width: 575.98px) {
+    .wkResponsiveDivStyle{
+        display: none;
+    }
+    /*.wkImageDiv {*/
+    /*    text-align: center!important;*/
+    /*}*/
+    .wkParagraphSpace {
+        font-size: 12px;
+        padding-left:5px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wkResponsiveDivStyle{
+        display: none;
+    }
+    /*.wkImageDiv {*/
+    /*    text-align: center!important;*/
+    /*}*/
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkResponsiveSerialShow{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wkResponsiveSerialShow{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wkResponsiveSerialShow{
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wkResponsiveSerialShow{
+        display: none;
+    }
+}
+
+@media (min-width: 1800px) {
+    .wkResponsiveSerialShow{
+        display: none;
+    }
+}
+
+@media (min-width: 2000px) {
+    .wkResponsiveSerialShow{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+.wkSelection {
+    border-radius: 4pt;
+    box-shadow: none;
+}
+
+.wkSelection:focus {
+    border-radius: 4pt;
+    border-color:  #00897b;
+    box-shadow: none;
+}
+.wkAppointmentConformButton{
+    background: #00695c;
+    border-color: #00695c;
+    min-width: 250px;
+    border-radius: 4pt;
+}
+
+.wkAppointmentConformButton:hover{
+    background: #00897b;
+    border-color: #00897b;
+    border-radius: 4pt;
+    min-width: 250px;
+}
+.wkAppointmentConfirmButton.focus, .wkAppointmentConfirmButton:focus {
+    box-shadow: none;
+}
+
+.wkAppointmentConfirmButton:not(:disabled):not(.disabled).active:focus, .wkAppointmentConfirmButton:not(:disabled):not(.disabled):active:focus, .show>.wkAppointmentConfirmButton.dropdown-toggle:focus {
+    box-shadow: none;
+}

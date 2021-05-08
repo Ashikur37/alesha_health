@@ -1,0 +1,41 @@
+.searchDoctorHeaderSpan{
+    text-decoration: none;
+}
+.headerMaterialIcon{
+    color: #dc3545;
+    font-size: 1.3rem;
+}
+.searchedDoctorAnchorTag{
+    text-decoration: none;
+    border-radius:0;
+    color: #00695c;
+    margin-top: -0.8rem;
+    margin-left: -0.7rem;
+    border-bottom:1px solid #00897b;
+}
+.searchedDoctorAnchorTag:hover{
+    text-decoration: none;
+    color: #00897b;
+}
+.wkArrowSetting{
+    position:relative;
+}
+
+.wkArrowSetting::before {
+    content: '';
+    position:absolute;
+    top: 4px;
+    left:0px;
+    border: 6px solid transparent;
+    border-left: 8px solid #dc3545;
+}
+
+.wkSettingLink {
+    color: #000;
+    text-decoration: underline;
+}
+
+.wkSettingLink:hover {
+    color: #0097db;
+    text-decoration: underline;
+}

@@ -1,0 +1,112 @@
+.login{
+    background: #fff;
+    margin-top: 30px;
+
+}
+
+.wkLoginContent {
+    margin: auto;
+    padding: 60px 100px;
+    width: 40%;
+    width: 50%;
+    height: auto;
+    background: #f6f5f3;
+}
+
+.wkLoginLink {
+    color: #000;
+    text-decoration: underline;
+}
+
+.wkLoginLink:hover, .wkLoginLink:focus {
+    color: #00897b;
+}
+.wkFromInput {
+    border-color: #00897b!important;
+    background: transparent;
+
+}
+.wkFromInput:focus {
+    border-color: #00897b!important;
+    box-shadow: none!important;
+}
+
+.wkLabelText {
+    padding-top: 0.38rem;
+}
+.wkLabelPasswordText{
+    padding-top: 0.3rem;
+}
+.loginComponent{
+    color: #00897b;
+}
+@media (max-width: 575.98px) {
+    .wkLoginContent {
+        padding: 30px;
+        padding-bottom: 80px;
+        width: 95%;
+        height: auto;
+        background: #f6f5f3;
+    }
+    .wkLoginLink {
+        font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wkLoginContent {
+        padding: 30px;
+        padding-bottom: 80px;
+        width: 95%;
+        height: auto;
+        background: #f6f5f3;
+    }
+    .wkLoginLink {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkLoginContent {
+        padding: 40px 60px;
+        width: 50%;
+    }
+    .wkLoginLink {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wkLoginContent {
+        padding: 40px 50px;
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wkLoginContent {
+        padding: 40px 40px;
+        width: 35%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wkLoginContent {
+        padding: 40px 60px;
+        width: 35%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .wkLoginContent {
+        padding: 40px 60px;
+        width: 30%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .wkLoginContent {
+        padding: 40px 60px;
+        width: 25%;
+    }
+}

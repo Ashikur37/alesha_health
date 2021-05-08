@@ -1,0 +1,70 @@
+.indivisualApproval{
+    margin-top: 1rem;
+    min-height: 8rem;
+    background: #EFEFEF;
+}
+.indivisualApproval:not(:last-child){
+    margin-bottom: 1rem;
+}
+.approvalContent{
+    padding: 2rem 0 0 2rem;
+}
+.indivisualApproval p{
+    margin: 0;
+}
+.indivisualApproval a{
+    font-size: .9rem;
+    color: #00695c;
+    border-bottom: 1px solid #00695c;
+}
+.indivisualApproval a:hover{
+    border: 0;
+}
+.approvalText{
+    font-size: .9rem;
+}
+.approveRight{
+    margin-top: 3rem;
+}
+.approveViewDetailBtn{
+    font-size: .9rem;
+    background: #00897b ;
+}
+.approveBtn{
+    font-size: .9rem;
+    width:6.5rem;
+    background: #00695c;
+}
+.approveViewDetailBtn:hover{
+    background: #00897b;
+    border: none;
+}
+.approveBtn:hover{
+    background: #00695c;
+    border: none;
+}
+@media (min-width: 320px){
+    .approveViewDetailBtn{
+        margin-bottom: 1rem;
+    }
+    .approveBtn{
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .approveBtn{
+        margin: 1rem 7rem 1rem 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .approveBtn{
+        margin: 1rem 7rem 1rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .approveRight{
+        margin-top: 2.5rem;
+    }
+}

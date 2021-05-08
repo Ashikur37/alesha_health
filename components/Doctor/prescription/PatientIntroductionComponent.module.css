@@ -1,0 +1,153 @@
+.wkPatientIntroductionBox{
+    background: #f6f5f3;
+    padding: 20px;
+}
+
+
+.wkPatinetIntroductonText {
+    padding-bottom: 30px;
+}
+
+.wkPatinetIntroductonText h5, .wkPatinetIntroductonText p{
+    margin-bottom: 5px;
+}
+
+.wkConsultationPlayButton {
+    border-radius: 0;
+    border: 1px solid #00897b;
+    background: #00897b;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.wkConsultationPlayButton:hover, .wkConsultationPlayButton:focus {
+    outline: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background: #00897b;
+}
+.wkPlayIcon {
+   position: absolute;
+}
+
+.wkPlayText {
+    padding-left: 30px;
+}
+
+.wkParientNav {
+    border: 1px solid;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.wkNavLink{
+    border: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin: 5px;
+    color: #000;
+}
+.wkNavLink:hover {
+    color: #000;
+    background: #ecebe9;
+}
+.wkNavLinkActive {
+    color: #fff!important;
+    background-color: #00695c!important;
+}
+
+
+@media (max-width: 575.98px) {
+    .wkPatinetConsultation {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wkParientNav {
+        border: 0;
+        border-color:transparent;
+    }
+
+    .wkNavLink{
+        display: block;
+    }
+
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wkPatinetConsultation {
+       text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .wkParientNav {
+        border: 0px;
+        border-color:transparent;
+    }
+
+    .wkNavLink{
+        display: block;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkPatinetConsultation {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transform: translate3d(-50%,-50%,0);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wkPatinetConsultation {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transform: translate3d(-50%,-50%,0);
+    }
+}
+
+@media (min-width: 1200px) {
+    .wkPatinetConsultation {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transform: translate3d(-50%,-50%,0);
+    }
+}
+
+@media (min-width: 1440px) {
+    .wkPatinetConsultation {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transform: translate3d(-50%,-50%,0);
+    }
+}
+
+@media (min-width: 1800px) {
+    .wkPatinetConsultation {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transform: translate3d(-50%,-50%,0);
+    }
+}
+
+@media (min-width: 2000px) {
+    .wkPatinetConsultation {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        transform: translate3d(-50%,-50%,0);
+    }
+}

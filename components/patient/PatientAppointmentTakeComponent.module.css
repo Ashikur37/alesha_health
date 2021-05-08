@@ -1,0 +1,53 @@
+.wkArrowSetting{
+    position:relative;
+}
+
+.wkArrowSetting::before {
+    content: '';
+    position:absolute;
+    top: 4px;
+    left:0px;
+    border: 6px solid transparent;
+    border-left: 8px solid #dc3545;
+}
+
+.wkSettingLink {
+    color: #000;
+    text-decoration: underline;
+}
+
+.wkSettingLink:hover {
+    color: #00695c;
+    text-decoration: underline;
+}
+.wkSelection {
+    border-radius: 4pt;
+    box-shadow: none;
+}
+
+.wkSelection:focus {
+    border-radius: 4pt;
+    border-color:  #00897b;
+    box-shadow: none;
+}
+
+.wkSubmitAppointment {
+    border-color:  #00695c;
+    background: #00695c;
+    color:#fff;
+    border-radius: 4pt;
+}
+
+.wkSubmitAppointment:hover {
+    border-color: #00897b;
+    background: #00897b;
+    color:#fff;
+    border-radius: 4pt  ;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.wkPATakeText {
+    font-size: 1.1rem;
+    padding-top: 12px;
+    color: #909090;
+}

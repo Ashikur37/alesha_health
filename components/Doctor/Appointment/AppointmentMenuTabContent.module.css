@@ -1,0 +1,103 @@
+.wkArrowSetting{
+    position:relative;
+}
+
+.wkArrowSetting::before {
+    content: '';
+    position:absolute;
+    top: 4px;
+    left:5px;
+    border: 6px solid transparent;
+    border-left: 8px solid #dc3545;
+}
+
+/*-----------Button style ---------------*/
+
+
+.wkAppoinmentDetalilsButton a{
+
+    margin-right: 2px;
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    padding: 10px 20px;
+    /*width: 150px!important;*/
+    margin-right: 2px;
+    height:2.9rem;
+}
+
+.wkAppoinmentDetalilsButton Button{
+    margin-right: 2px;
+    color: #fff;
+    text-decoration: none;
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    padding: 10px 20px;
+    /*width: 150px!important;*/
+    margin-right: 2px;
+    height:2.9rem;
+}
+
+
+.wkAppoinmentDetalilsButton a:hover{
+    background: #00695c;
+
+    color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
+}
+
+
+.wkAppoinmentDetalilsButton button:hover{
+    background: #f9f9f9;
+    border-radius: 0;
+    border:1px solid #007cb4;
+    padding: 4px 20px;
+    /*width: 150px!important;*/
+    color: #000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
+}
+
+.wkAppointmentActiveButton {
+    color: #fff!important;
+    background: #00695c!important;
+    border:1px solid #00695c!important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    width: 150px;
+}
+.wkAppointmentActiveButton:hover {
+    color: #fff;
+    background: #00695c!important;
+    border:1px solid #00695c;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.wkAppointmentActiveButton.focus, .wkAppointmentActiveButton:focus {
+
+    color: #fff;
+    background: #00695c!important;
+    border:1px solid #00695c!important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 575.98px) {
+    .WkButtonResponsive {
+        display: block;
+        width:100%!important;
+        border-bottom: 1px solid #00695c;
+        margin-bottom: 4px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .WkButtonResponsive {
+        display: block;
+        width:100%!important;
+        border-bottom: 1px solid #00695c;
+        margin-bottom: 4px;
+    }
+}

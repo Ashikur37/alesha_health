@@ -1,0 +1,66 @@
+
+.wkTableHead {
+    background: rgba(0, 153, 226, 0.27);
+    text-align: center;
+}
+
+.wkTable td, .wkTable th {
+    padding: 1rem!important;
+    border-top: 5px solid #fff!important;
+}
+
+.wkServicesPostUnpublish{
+    border-radius: 0;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: 1px solid;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.wkServicesPostUnpublish:hover{
+   color:#000;
+    background-color: #fff;
+    border-color: #dc3545;
+}
+.wkServicesPostPublished {
+    border-radius: 0;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: 1px solid;
+    background-color: #28a745;
+    border-color: #28a745;
+
+}
+.wkServicesPostPublished:hover {
+   color: #000;
+
+    background-color: #fff;
+    border-color: #28a745;
+}
+.wkDoctorEditServices {
+    padding: 10px;
+    color:  #ffc107;
+}
+
+.wkDoctorSercicesPost{
+    background: #f6f5f3;
+    padding: 20px;
+}
+
+.wkDoctorServicesHeader {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background: rgba(0, 153, 226, 0.27);
+}
+
+.wkDoctorServicesHeader p {
+    margin-bottom: 0px;
+}
+
+.wkDoctorServicesCard {
+    margin: 10px 0px;
+    background: #fff;
+    padding: 10px;
+}

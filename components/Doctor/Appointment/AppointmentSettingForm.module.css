@@ -1,0 +1,31 @@
+.wkAppointmentFeeFrom {
+    padding: 20px;
+    background: #f6f5f3;
+}
+
+.wkFromInput {
+    border-color: #00695c!important;
+    border-radius: 0px;
+
+}
+.wkFromInput:focus {
+    border-color: #00695c!important;
+    box-shadow: none!important;
+}
+
+.wkFeeSettingTableHeading {
+    background: #00897b;
+    color: #fff;
+    margin-top: 40px;
+    padding:10px
+}
+
+@media (max-width:492px){
+    .wkFeeSettingTableHeading {
+        font-size: 10px;
+    }
+    .wkFeeSettingTableHeading .col{
+        padding: 10px 2px;
+    }
+
+}

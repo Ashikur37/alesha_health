@@ -1,0 +1,85 @@
+.searchedDoctor{
+}
+.searchDoctorHeaderSpan{
+    text-decoration: none;
+}
+.headerMaterialIcon{
+    color: #dc3545;
+    font-size: 1.3rem;
+}
+.searchedDoctorAnchorTag{
+    text-decoration: none;
+    border-radius:0;
+    color: #000000;
+    margin-top: -0.8rem;
+    margin-left: -0.7rem;
+    border-bottom:1px solid #000000;
+}
+.searchedDoctorAnchorTag:hover{
+    text-decoration: none;
+    color: #00897b;
+}
+
+.searchDoctorForm{
+    width: 96%;
+}
+.advanceSearchBtn{
+    text-decoration: none;
+    border: 0;
+    border-radius: 0;
+    color: red;
+    font-weight: 500;
+}
+.advanceSearchBtn:hover{
+    text-decoration: none;
+    border: 0;
+    border-radius: 0;
+    color: #000000;
+}
+.wkvideoHeight {
+    height: 380px;
+    /*width: auto;*/
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .advanceSearchBtn{
+        margin-top:-3.7rem;
+        margin-right: .9rem;
+        font-size: 1.2rem;
+    }
+    .wkvideoHeight {
+        height: 350px;
+        /*width: auto;*/
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .advanceSearchBtn{
+        margin-top:-0.5rem;
+        margin-left: 1rem;
+    }
+    .wkvideoHeight {
+        height: 350px;
+        /*width: auto;*/
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .advanceSearchBtn{
+        margin-top:-0.5rem;
+        margin-right: 2.5rem;
+    }
+    .wkvideoHeight {
+        height: 380px;
+        /*width: auto;*/
+    }
+}
+
+@media (min-width: 1200px) {
+    .advanceSearchBtn{
+        margin-top:-0.5rem;
+        margin-right: 4.5rem;
+    }
+    .wkvideoHeight {
+        height: 400px;
+        /*width: auto;*/
+    }
+}

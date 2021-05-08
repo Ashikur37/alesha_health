@@ -1,0 +1,91 @@
+ul.wkPresSeetMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+ul.wkPresSeetMenu li {
+    float: left;
+}
+
+.wkPresSheetActiveButton {
+    background: #FFC53B;
+}
+
+ .wkPresSeetMenu li a{
+    display: block;
+    padding: 1px 10px;
+     text-decoration:none;
+}
+
+ .wkPresSearchArea {
+     padding-top: 50px;
+ }
+
+ .wkpressSearchButton{
+     border-radius: 0;
+     background: #D9EFFA;
+     border: 0px;
+ }
+.wkpressSearchButton:not(:disabled):not(.disabled).active, .wkpressSearchButton:not(:disabled):not(.disabled):active, .show>.wkpressSearchButton.dropdown-toggle {
+    color: #fff;
+    background-color: #D9EFFA;
+    border-color: #D9EFFA;
+}
+.wkpressSearchButton:hover, .wkpressSearchButton:hover{
+    border-radius: 0;
+    background: #D9EFFA;
+    border: 0px;
+    border-shadow: none;
+}
+.wkpressSearchButton:not(:disabled):not(.disabled).active:focus, .wkpressSearchButton:not(:disabled):not(.disabled):active:focus, .show>.wkpressSearchButton.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.wkpressSearchButton.focus, .wkpressSearchButton:focus {
+    box-shadow: none;
+}
+ .wkPressSearchInput {
+     border-radius: 0;
+     padding: 22px;
+     border: 0px;
+     background:#D9EFFA;
+ }
+
+.wkPressSearchInput:focus {
+    color: #495057;
+    background-color: #f6f5f3;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.wkWritePrescriptionSheet {
+    background:#f6f5f3;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.wkPrescriptionSheetButton {
+    border-radius: 0;
+    background: #00695c;
+    border-color: #00695c;
+}
+
+.wkPrescriptionSheetButton:hover {
+    border-radius: 0;
+    background: #00897b;
+    border-color: #00897b;
+}
+
+.wkPrescriptionSheetButton:not(:disabled):not(.disabled).active, .wkPrescriptionSheetButton:not(:disabled):not(.disabled):active, .show>.wkPrescriptionSheetButton.dropdown-toggle {
+    color: #fff;
+    background-color: #00897b;
+    border-color: #00897b;
+}
+
+.wkPrescriptionSheetButton:not(:disabled):not(.disabled).active:focus, .wkPrescriptionSheetButton:not(:disabled):not(.disabled):active:focus, .show>.wkPrescriptionSheetButton.dropdown-toggle:focus {
+    box-shadow: none;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}

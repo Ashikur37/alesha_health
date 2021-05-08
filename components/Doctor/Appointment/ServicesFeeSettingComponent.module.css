@@ -1,0 +1,38 @@
+.wkArrowSetting{
+    position:relative;
+}
+
+.wkArrowSetting::before {
+    content: '';
+    position:absolute;
+    top: 4px;
+    left:5px;
+    border: 6px solid transparent;
+    border-left: 8px solid #dc3545;
+}
+
+.wkSettingLink {
+    color: #000;
+    text-decoration: underline;
+}
+
+.wkSettingLink:hover {
+    color: #00695c;
+    text-decoration: underline;
+}
+
+.wkFeeSettingTableHeading {
+    padding: 16px 10px 6px 12px;
+    background-color: #00897b;
+    color: #fff;
+
+}
+
+
+.wkFeeSettingTableHeading p {
+    margin-bottom: 0;
+}
+
+.material-icons {
+    font-size: 16px;
+}

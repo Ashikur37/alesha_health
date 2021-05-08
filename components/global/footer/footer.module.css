@@ -1,0 +1,289 @@
+.foooterDefaultFontSize{
+    font-size: 1rem;
+    color: #000000;
+}
+.footerArea {
+    background: #f6f5f3;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom:40px;
+    margin-top: 80px;
+}
+.wkFooterHeading {
+    font-size: 18px;
+}
+.footerArea a {
+    color: #000;
+    text-decoration: none;
+}
+.footerArea a:hover {
+    color: #00695c;
+}
+.footerLayout{
+    min-height: 15rem;
+    background-color: #EFEFEF;
+    border: 1px solid #C0C0C0;
+    margin-bottom: 2rem;
+
+}
+.footerLayout p{
+    margin:0;
+    padding-top:1rem;
+}
+.footerFirst{
+    margin-top: 4.5rem;
+}
+.liveDoctorAddButton1{
+    max-width: 10rem;
+    background:transparent;
+    padding:1rem;
+    padding-left: 0;
+    transition: all .7s;
+    border: 1px solid #0000;
+}
+.liveDoctorAddButton1:hover{
+    z-index:1;
+    transform: scale(1) translateY(-0.5rem);
+}
+.liveDoctorAddButton2{
+    max-width: 9.3rem;
+    background:transparent;
+    padding: .8rem;
+    transition: all .7s;
+}
+.liveDoctorAddButton2:hover{
+    transform: scale(1) translateY(-0.5rem);
+}
+.liveDoctorAddButtonImg1{
+    border-radius: 4pt;
+    margin-left:15px;
+    width: 110px;
+}
+.liveDoctorAddButtonImg1:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: scale(1) translateY(-0.05rem);
+}
+.liveDoctorAddButtonImg2{
+    border-radius: 4pt;
+    width: 110px;
+}
+.liveDoctorAddButtonImg2:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: scale(1) translateY(-0.05rem);
+}
+.footerSecond{
+    padding-top: 4.5rem;
+    margin:0 auto;
+}
+.footerThird{
+    padding-top: 4.5rem;
+    margin:0 auto;
+}
+.wkFooterSocialIcon {
+    width:36px;
+    height: auto;
+    margin-left:5px;
+    border-radius: 50%;
+}
+.wkFooterSocialIcon:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: scale(1) translateY(-0.03rem);
+}
+.wkFooterSocialIconBlog {
+    width:28px;
+    height: auto;
+    margin-left:5px;
+    border-radius: 10%;
+}
+.wkFooterSocialIconBlog:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: scale(1) translateY(-0.03rem);
+}
+.wkBlogLink{
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    padding: 13px 50px!important;
+    text-align: center;
+    min-width: 150px!important;
+    margin-right: 2px;
+    color:#fff!important;
+}
+.wkBlogLink:hover{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    /*min-width: 150px;*/
+    text-decoration:none;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+
+.wkBannarTextOfFooterPages {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.wkFooterGeneralPageArea {
+    margin: 0 auto;
+    width: 75%;
+    padding: 10px;
+}
+.wkDoctorBenefits {
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.wkUl{
+    list-style-type: none;
+    font-size: 15px;
+}
+.wkUl li {
+    position:relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+.wkUlCircle {
+  position: absolute;
+    left: -3%;
+    top: 15%;
+
+}
+.wkUlCircle:before{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: #006953;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .footerSecond{
+       width: 35%;
+    }
+    .footerThird{
+        width: 25%;
+    }
+    .wkFooterHeadingText {
+        text-align: center;
+    }
+    .wkFooterDownloadArea {
+        margin-left: 20%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .liveDoctorAddButton1{
+        text-align: center;
+    }
+    .liveDoctorAddButton2{
+        text-align: center;
+    }
+    .wkFooterGeneralPageArea {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .wkUlCircle {
+        position: absolute;
+        left: -7%;
+        top: 8%;
+    }
+    .wkBannarTextOfFooterPages {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .footerSecond{
+        margin-left: 12rem;
+    }
+    .footerThird{
+        margin-left: 14rem;
+    }
+    .wkFooterHeadingText {
+        text-align: center;
+    }
+    .wkFooterDownloadArea {
+        margin-left: 20%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .liveDoctorAddButton1{
+        text-align: center;
+    }
+    .liveDoctorAddButton2{
+        text-align: center;
+    }
+    .wkFooterGeneralPageArea {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .wkUlCircle {
+        position: absolute;
+        left: -4%;
+        top: 8%;
+    }
+    .wkBannarTextOfFooterPages {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wkFooterHeadingText {
+        text-align: center;
+    }
+    .wkFooterDownloadArea{
+        margin-left: 25%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .liveDoctorAddButton1{
+        text-align: center;
+    }
+    .liveDoctorAddButton2{
+        text-align: center;
+    }
+    .wkFooterGeneralPageArea {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .wkFooterHeadingText {
+      text-align: left;
+    }
+    .wkFooterDownloadArea {
+        text-align: left;
+
+        margin-bottom: 15px;
+    }
+    .wkFooterGeneralPageArea {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wkFooterHeadingText {
+        text-align: left;
+    }
+    .wkFooterDownloadArea {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,237 @@
+.DoctorRegistrationPanel{
+    padding: 1rem;
+    margin: 0 auto;
+    background: #EFEFEF;
+}
+.DoctorRegistrationPanelForm{
+    margin: 0 auto;
+}
+.DoctorRegistrationPersonalForm {
+    padding: 20px;
+}
+.DoctorNextButton{
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    color:#fff;
+    padding: 5px 20px;
+    min-width: 100px;
+    margin-right: 2px;
+    height:2.9rem;
+
+}
+
+.DoctorNextButton:hover{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 100px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+.DoctorNextButton:focus {
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 100px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+.DoctorBackButton{
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    color:#fff;
+    padding: 5px 20px;
+    min-width: 100px;
+    margin-right: 2px;
+    height:2.9rem
+}
+.DoctorBackButton:hover{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 100px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+.DoctorBackButton:focus{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 100px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+.wk-select-input {
+    border-radius: 4pt;
+    border-color: #00695c;
+    height:2.9rem;
+}
+.wk-select-input:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #00695c!important;
+    box-shadow: none;
+}
+
+.wk-general-button{
+    background: #00695c;
+    border-radius: 4pt;
+    border:1px solid #00695c;
+    padding: 5px 20px;
+    min-width: 150px;
+    margin-right: 2px;
+    height:2.9rem;
+}
+.wk-general-button:hover{
+    background: #00897b;
+    border-radius: 4pt;
+    border:1px solid #00897b;
+    padding: 5px 20px;
+    min-width: 150px;
+    color:#fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+}
+
+/*---------------Responsive Grid ---------------------*/
+@media (max-width: 320px) {
+    .DoctorRegistrationPanel {
+        width: 100%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:100%;
+        margin: 0 auto;
+    }
+
+}
+@media (min-width: 425px) and (max-width:319.98px) {
+    .DoctorRegistrationPanel {
+        width: 100%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:100%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 424.98px) {
+    .DoctorRegistrationPanel {
+        width: 100%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:95%;
+        margin: 0 auto;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .DoctorRegistrationPanel {
+        width: 100%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .DoctorRegistrationPanel{
+        width: 65%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:90%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .DoctorRegistrationPanel{
+        width: 65%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .DoctorRegistrationPanel{
+        width: 65%;
+    }
+    .DoctorRegistrationPanelForm{
+        width:90%;
+        margin: 0 auto;
+    }
+}
+
+/*---------------------------*/
+.wkdocCerIput {
+    border-radius: 4pt;
+}
+.wkdocCerIput {
+    border-radius: 4pt;
+    border-color: #00695c;
+}
+
+.wkdocCerIput:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #00695c;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(255,255,255,.25);
+}
+.wkCustomFileInput{
+    height: 38px;
+}
+.wkCustomFileInput::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+
+.wkCustomFileInput::before {
+    content: 'Attach File';
+    display: block;
+    background: linear-gradient(0deg, #757575, #757575);
+    border: 1px solid #00695c;
+    border-radius: 4pt;
+    padding: 8px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+
+    /*text-shadow: 1px 1px #fff;*/
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.wkCustomFileInput:hover::before {
+    border-color: #757575;
+    background:#757575;
+}
+
+.wkCustomFileInput:active::before {
+    background: -webkit-linear-gradient(0deg, #e3e3e3, #f9f9f9);
+}
+
+.inputImg{
+    height: 200px;
+    width: 200px;
+}
+
+.custom-file-input {
+    border-radius: 4pt!important;
+    border: 1px solid #00695c!important;
+    height:2.9rem!important;
+}

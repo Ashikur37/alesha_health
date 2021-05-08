@@ -1,0 +1,13 @@
+.registrationApprovalList {
+    margin: 0 auto;
+    width: 93%;
+}
+.registrationApprovalBanner{
+    height: 4rem;
+    background: #00695c;
+}
+.registrationApprovalBannerText{
+    padding: 1.2rem 0 0 3rem;
+    color:#ffffff;
+    font-weight: 300;
+}

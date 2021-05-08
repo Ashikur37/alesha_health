@@ -1,0 +1,30 @@
+.medicalLocation{
+    margin: 0 auto;
+    width:75%;
+    min-height: 20rem;
+}
+.medicallLocationLeft{
+    margin-top: 1rem;
+}
+.leftSectionWidth{
+    margin: 0 auto;
+    width: 50%;
+}
+.medicallLocationIcon{
+    font-size: 2.5rem;
+    color: #00695c;
+}
+.medicallLocationFont{
+    font-size: .9rem;
+    color: #000000;
+}
+.locationRightMapSection{
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #00695c;
+}
+.locationRightMap{
+    width: 100%;
+    height: 100%;
+}
